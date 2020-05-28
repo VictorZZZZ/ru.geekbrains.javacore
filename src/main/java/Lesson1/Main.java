@@ -18,7 +18,7 @@ public class Main {
 //        3. Написать метод вычисляющий выражение a * (b + (c / d)) и возвращающий результат,где a, b, c, d – входные параметры этого метода;
         System.out.println("Result of calculating a * (b + (c / d)) = " + calculate(56, 65, 22,11));
 //        4. Написать метод, принимающий на вход два числа, и проверяющий что их сумма лежит в пределах от 10 до 20(включительно), если да – вернуть true, в противном случае – false;
-        System.out.println("Does this value between 10 and 20 ? : " + difference(116, 4));
+        System.out.println("Does this value between 10 and 20 ? : " + difference(16, 4));
 //        5. Написать метод, которому в качестве параметра передается целое число, метод должен напечатать в консоль положительное ли число передали, или отрицательное; Замечание: ноль считаем положительным числом.
         compare(642);
 //        6. Написать метод, которому в качестве параметра передается целое число, метод должен вернуть true, если число отрицательное;
@@ -35,11 +35,13 @@ public class Main {
     }
 
     private static boolean difference(int x, int y){
-        if ((x+y >= 10) && (x+y <= 20)){
-            return true;
-        }else{
-            return false;
-        }
+        int z = x+y;
+        return ((z >= 10) && (z <= 20));
+//        if ((x+y >= 10) && (x+y <= 20)){
+//            return true;
+//        }else{
+//            return false;
+//        }
 
     }
 
@@ -49,6 +51,8 @@ public class Main {
         } else {
             System.out.println("Value is negative");
         }
+
+
     }
 
     private static boolean checkPositive(int x){
