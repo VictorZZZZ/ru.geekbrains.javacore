@@ -5,7 +5,6 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args){
 //        1. Задать целочисленный массив, состоящий из элементов 0 и 1. Например: [ 1, 1, 0, 0, 1, 0, 1, 1, 0, 0 ]. С помощью цикла и условия заменить 0 на 1, 1 на 0;
-
         q1();
 //        2. Задать пустой целочисленный массив размером 8. С помощью цикла заполнить его значениями 0 3 6 9 12 15 18 21;
         q2();
@@ -42,7 +41,7 @@ public class Main {
             System.out.println(("Starting array value : ") + Arrays.toString(iona));
 
         for (int i = 0; i > iona.length; i++) {
-//думай думай
+
             }
             System.out.println(("Value after cycle of change : ") + Arrays.toString(iona));
     }
