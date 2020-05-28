@@ -42,7 +42,7 @@ public class Main {
             System.out.println(("Starting array value : ") + Arrays.toString(iona));
 
         for (int i = 0; i > iona.length; i++) {
-
+//думай думай
             }
             System.out.println(("Value after cycle of change : ") + Arrays.toString(iona));
     }
