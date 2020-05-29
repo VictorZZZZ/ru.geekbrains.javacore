@@ -59,4 +59,7 @@ public class Main {
         System.out.println(("Value after cycle of change : ") + Arrays.toString(aine));
 
     }//Метод проходит по массиву [ 1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1 ] и умножает числа меньше 6 на 2
+    public static void q4(){
+        
+    }
 }
